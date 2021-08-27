@@ -59,6 +59,13 @@ document.getElementById('btnClr').addEventListener('click', function () {
   setRes(calculator)
 })
 
+document.getElementById('btnEql').addEventListener('click', function () {
+  let r = document.getElementById('res')
+  let txt = document.getElementById('res').innerHTML
+  let calc = Math.floor(eval(txt)).toString(2)
+  r.innerHTML = calc
+})
+
 
 
 
