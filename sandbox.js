@@ -38,6 +38,21 @@ document.getElementById('btnSum').addEventListener('click', function (e) {
   setRes(calculator)
 })
 
+document.getElementById('btnMul').addEventListener('click', function (e) {
+  calculator.add(e.target.innerHTML)
+  setRes(calculator)
+})
+
+document.getElementById('btnSub').addEventListener('click', function (e) {
+  calculator.add(e.target.innerHTML)
+  setRes(calculator)
+})
+
+document.getElementById('btnDiv').addEventListener('click', function (e) {
+  calculator.add(e.target.innerHTML)
+  setRes(calculator)
+})
+
 // Removes all items from datastore
 document.getElementById('btnClr').addEventListener('click', function () {
   calculator.clearData()
