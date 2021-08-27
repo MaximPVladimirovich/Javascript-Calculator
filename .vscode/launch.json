@@ -5,19 +5,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Attach to Edge",
-      "port": 9222,
-      "request": "attach",
+      "name": "Launch Edge",
+      "request": "launch",
       "type": "pwa-msedge",
-      "webRoot": "${workspaceFolder}"
-    },
-
-    
-    {
-      "type": "vscode-edge-devtools.debug",
-      "request": "attach",
-      "name": "Attach to Microsoft Edge and open the Edge DevTools",
-      "url": "http://localhost:8080",
+      "url": "http://localhost:8080/sandbox.html",
       "webRoot": "${workspaceFolder}"
     },
     {
@@ -25,6 +16,12 @@
       "request": "launch",
       "name": "Open sandbox.html",
       "file": "c:\\Users\\maxim\\code\\front_end\\sandbox\\sandbox.html"
+    },
+    {
+      "name": "Launch Microsoft Edge and open the Edge DevTools",
+      "request": "launch",
+      "type": "vscode-edge-devtools.debug",
+      "url": "http://localhost:8080/sandbox.html" // Provide your project's url to finish configuring
     }
   ]
 }
