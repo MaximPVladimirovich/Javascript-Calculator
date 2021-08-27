@@ -1,3 +1,5 @@
-# Socket.io 
+# JS Calculator
 
-##This is a small chat app I built to understand web sockets. 
+##This is a calculator based on Hacker ranks js assignment. I built this using js classes. 
+
+![]
